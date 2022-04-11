@@ -1,0 +1,128 @@
+.browse-gigs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  border: 1px solid lightgrey;
+  /* margin-right: 0px; */
+  width: 250px;
+  height: 400px;
+  /* padding: 0 30px; */
+}
+.gig-username h3{
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+.gigImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.slider-pkg {
+  margin: 1% 5%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  max-width: 100%;
+}
+
+.gig-username{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.gig-dp{
+  margin: 20px 10px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.gig-title{
+  margin: 0px 10px;
+}
+
+.gig-db-rating{
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffbe5b;
+}
+
+.gig-bottom{
+  border-top: 1px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+.gig-bottom h2{
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1600px){
+  .browse-gigs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    border: 1px solid lightgrey;
+    /* margin-right: 0px; */
+    width: 250px;
+    height: 350px;
+    /* padding: 0 30px; */
+  }
+  .slider-pkg {
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    max-width: 100%;
+  }
+  .gigImage {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .gig-username h3{
+    font-size: 16px;
+  }
+
+  .gig-title{
+    font-size: 14px;
+  }
+
+  .gig-price{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px){
+  .slider-pkg{
+    text-align: center;
+  }
+  .slick-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .browse-gigs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    border: 1px solid lightgrey;
+    /* margin-right: 0px; */
+    width: 300px;
+    height: 400px;
+    /* padding: 0 30px; */
+  }
+}

@@ -1,0 +1,45 @@
+.slide-container {
+  width: 77%;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  object-fit: cover;
+  height: 250px;
+}
+.slide-title {
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.react-slideshow-container button{
+  z-index: 1 !important;
+}
+
+@media (max-width: 1550px) {
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 210px;
+  }
+  
+  .slide-container{
+    /* width: 100%; */
+    /* display: none; */
+}
+}
+
+@media (max-width: 1200px){
+    .slide-container{
+        width: 100%;
+    }
+    .slide-title {
+    font-size: 15px;
+  }
+}

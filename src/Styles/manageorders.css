@@ -1,0 +1,36 @@
+.orders-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.orders-container h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.tabs-container .order-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    color: grey;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 10px;
+}
+
+.table-heading, .table-foot{
+    padding: 10px 10px;
+
+}
+
+.tabpanel-container{
+    border: 1px solid lightgrey;
+    background-color: #fafafa;
+}
+

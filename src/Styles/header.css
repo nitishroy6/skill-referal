@@ -1,0 +1,174 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  background-color: white !important;
+}
+
+.active{
+  color: blue;
+}
+
+.logoname, .txtmenu.home{
+  color:black;
+}
+header {
+  padding: 0 5%;
+  top: 0;
+  background-color: var(--dkgold);
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  box-shadow: 0px 1px 7px lightgrey;
+  /* z-index: 10; */
+}
+/* .mxw-header{
+  width: 100%;
+  max-width: 77%;
+  display: flex;
+} */
+.logo {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  justify-content: space-between;
+}
+.searchboxinput{
+  height: 35px;
+  width: 300px;
+  border: 0.5px solid lightgrey;
+}
+.search-btn{
+  height: 35px;
+  width: 120px;
+  border: 0;
+  background-color: #26C6DA;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+.search-btn:hover{
+  background-color: #05a9bb;
+}
+.pic {
+  max-width: 300px;
+  max-height: 40px;
+  vertical-align: middle;
+}
+
+.logoname {
+  font-size: 28px;
+}
+
+.menu {
+  display: inline-flex;
+  padding: 20px;
+  font-size: 17px;
+  justify-content: space-between;
+  margin-right: 0;
+  align-items: center;
+}
+.toggle {
+  display: none;
+}
+.menuitem {
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.menuitem a {
+  transition: 0.3s;
+}
+.txtmenu:hover {
+  color: #134ed2;
+}
+
+.contact-btn {
+  margin-left: 25px;
+  background: #134ed2;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: black;
+}
+
+.menuactive {
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  transition: 0.4s;
+}
+
+
+
+@media (max-width: 1114px) {
+  header {
+    padding: 40px;
+  }
+
+  .search-btn, .searchboxinput{
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+  .logoname {
+    font-size: 20px;
+    padding-left: 0;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+  }
+
+  .toggle {
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url("../Static/menu.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    filter: invert(1);
+    cursor: pointer;
+    border: 0.5px solid rgb(39, 39, 39);
+    border-radius: 10px;
+  }
+}

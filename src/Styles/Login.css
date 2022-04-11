@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+}
+.boxContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginBox {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+}
+
+.login-btn{
+  background-color: #26C6DA;
+  transition: 0.4s;
+}
+.login-btn:hover{
+  background-color: #05a9bb;
+}
+.signInWithGoogle {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 10px;
+  height: 50px;
+  margin: 20px 0px;
+}
+
+.signInWithGoogle a {
+  color: black;
+  text-decoration: none;
+}
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBox input{
+    border: 1px solid lightgrey;
+}

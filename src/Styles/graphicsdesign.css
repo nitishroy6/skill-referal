@@ -1,0 +1,81 @@
+.gr-cont {
+  width: 88%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gr-cont-top {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-gr-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.grpg-cat-col ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.grpg-cat-col ul li{
+    padding: 10px 0;
+}
+
+.grpg-subcat-col {
+  flex: 1;
+  margin-left: 150px;
+}
+.subcat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.subcat-box {
+  height: 300px;
+  width: 300px;
+}
+
+.subcat-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.subcat-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.subcat-img img:hover {
+  transform: scale(1.05);
+}
+
+.subcat-name {
+  text-align: left;
+}
+
+.subcat-name h3 {
+  font-weight: 500;
+}
+
+
+@media (max-width: 1100px){
+    .grpg-subcat-col{
+        display: none;
+    }
+
+    .grpg-cat-col ul li{
+        padding: 20px 0;
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+
+}

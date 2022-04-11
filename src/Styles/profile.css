@@ -1,0 +1,217 @@
+.profile-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-top: 50px;
+  }
+  
+  .prof-sub-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .intro-box{
+      border: 1px solid lightgrey;
+      background-color: #fafafa;
+      height: 380px;
+      width: 380px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .prof-pic{
+      height: 150px;
+      width: 150px;
+      background-image: url("../Static/nkj3.jpg");
+      background-size: cover;
+      border-radius: 50%;
+  }
+  
+  .from-since{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  .from, .since{
+      width: 80%;
+      display: flex;
+      color: grey;
+      justify-content: space-between;
+      align-self: center;
+      text-align: center;
+      align-items: center;
+  }
+  
+  .country, .year{
+      font-weight: 600;
+  }
+  
+  .tab-nav{
+      display: flex;
+      width: 600px;
+      /* background-color: #fafafa; */
+      padding: 0 20px;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  
+  .nav-content{
+     padding: 0 10px;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     font-weight: 500;
+  }
+  
+  .nav-content:hover{
+      color: #1dbf73;
+  }
+  .clicked{
+      border-bottom: 2px solid #1dbf73;
+  }
+  
+  .add-box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 250px;
+      width: 250px;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .drafts-box{
+      width: 100%;
+      max-width: 600px;
+  }
+  
+  .draft{
+      height: 300px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      background-color: #fafafa;
+  }
+  
+  .gig-image{
+      /* background-image: url("../Static/gigpic.jpg"); */
+      /* min-height: 145px; */
+      height: 50%;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid lightgrey;
+      background-color: white;
+  }
+  
+  .draft-title{
+      padding: 5px;
+      height: 100px;
+      text-align: left;
+  }
+  .title-n-opt{
+      display: flex;
+      height: 50%;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .opt-n-price{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5px;
+  }
+  .description-box{
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: space-between;
+      margin-top: 20px;
+      width: 380px;
+      /* height: 1112px; */
+      background-color: #fafafa;
+  }
+  
+  .description-box h5{
+      font-weight: 400;
+  }
+  
+  .description-box h4{
+      font-weight: 500;
+  }
+  
+  .description-box p{
+      text-align: left;
+      font-size: 14px;
+      margin: 0% 10%;
+      padding-bottom: 30px;
+      border-bottom: 1px solid lightgrey;
+  }
+  .lang{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0 10%;
+      padding-bottom: 30px;
+      border-bottom: 1px solid lightgrey;
+  }
+  
+  .lang-head{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .skills{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0 10%;
+      padding-bottom: 30px;
+      border-bottom: 1px solid lightgrey;
+  }
+  .linked-acc h4{
+      text-align: left;
+  }
+  
+  .skill-body{
+      color: black;
+  }
+  
+  .skill-name{
+      font-size: 14px;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid lightgrey;
+      border-radius:50px;
+      width: max-content;
+  }
+  
+  .education p{
+      color: grey;
+  }
+  
+  
+  @media (max-width: 1200px){
+      .prof-sub-cont {
+          display: flex;
+          flex-direction: column;
+          margin-top: 50px;
+        }
+      .tab-nav{
+          margin-top: 50px;
+      }
+      .drafts-box{
+          display: flex;
+          flex-direction: column;
+          
+      }
+      .draft{
+          margin: 10px 0;
+      }
+  }
